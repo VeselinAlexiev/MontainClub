@@ -1,40 +1,48 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <a href="#" class="nav-button" id="home">Home</a>
-            <a href="#" class="nav-button" id="about">About</a>
-            <a href="#" class="nav-button" id="contact">Contact Us</a>
-            <a href="#" class="nav-button" id="register">Register</a>
-        </nav>
-    </header>
 
-    <!-- Contact Section (initially hidden) -->
-    <section class="contact-section" id="contact-section">
-        <div class="contact-info">
-            <h2>Contact Information</h2>
-            <p><strong>Address:</strong><br>Suite40, NP12<br>Exampleplace 04</p>
-            <p><strong>Phone:</strong><br>+0000 999 5847<br>+0000 3434 5678</p>
-            <p><strong>Email:</strong><br>coding@xgmail.com<br>info.coding@xgmail.com</p>
-        </div>
-        <div class="contact-form">
-            <h3>Send us a message</h3>
-            <p>If you have any inquiries or requests, please send us a message. We're here to help!</p>
-            <form>
-                <input type="text" placeholder="Enter your name">
-                <input type="email" placeholder="Enter your email">
-                <button type="submit">Send Now</button>
-            </form>
-        </div>
-    </section>
+<div class="page contact-page hide">
+    <div class="contact">
+        <div class="container">
+            <div class="content">
+                <div class="left-side">
+                    <div class="address details">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="topic">Address</div>
+                        <div class="text-one">Surkhet, NP12</div>
+                        <div class="text-two">Birendranagar 06</div>
+                    </div>
+                    <div class="phone details">
+                        <i class="fas fa-phone-alt"></i>
+                        <div class="topic">Phone</div>
+                        <div class="text-one">+0098 9893 5647</div>
+                        <div class="text-two">+0096 3434 5678</div>
+                    </div>
+                    <div class="email details">
+                        <i class="fas fa-envelope"></i>
+                        <div class="topic">Email</div>
+                        <div class="text-one">codinglab@gmail.com</div>
+                        <div class="text-two">info.codinglab@gmail.com</div>
+                    </div>
+                </div>
+                <div class="right-side">
+                    <div class="topic-text">Send us a message</div>
+                    <p>If you have any work from me or any types of quries related to my tutorial, you can send
+                        me message from here. It's my pleasure to help you.</p>
+                    <form class="contact-form" action="#">
+                        <div class="input-box">
+                            <input type="text" placeholder="Enter your name">
+                        </div>
+                        <div class="input-box">
+                            <input type="text" placeholder="Enter your email">
+                        </div>
+                        <div class="input-box message-box">
 
-    <script src="solution.js"></script>
-</body>
-</html>
+                        </div>
+                        <div class="button">
+                            <input type="button" value="Send Now">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>  
